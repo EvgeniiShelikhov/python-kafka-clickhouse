@@ -28,14 +28,14 @@ Prerequisites:
 		- S3
 		- SSM
 
-#=============================================================================================#
-#               					ATTENTION											      #
-# AWS charges for ec2 instances 															  #
-# type (small): 0.023 USD per Hour for Kafka project         								  #
-# type (medium): 0.0464 USD per Hour for Minikube project                                     #
-# These types were selected according to the price and necessary resources.                   #
-# instance_type parameter to change instance type in variables.tf file (/IaC/aws/projects/..).#
-#=============================================================================================#
+#=============================================================================================
+#               					ATTENTION											      
+# AWS charges for ec2 instances 															  
+# type (small): 0.023 USD per Hour for Kafka project         								  
+# type (medium): 0.0464 USD per Hour for Minikube project                                     
+# These types were selected according to the price and necessary resources.                   
+# instance_type parameter to change instance type in variables.tf file (/IaC/aws/projects/..).
+#=============================================================================================
 
 To deploy infrastructure:
 1. To prepare state storage for terraform:
