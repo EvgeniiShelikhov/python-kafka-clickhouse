@@ -5,7 +5,7 @@
 ### Common vars ###
 
 variable "project_name" {
-  default = "web_server"
+  default = ""
 }
 
 variable "tags" {
